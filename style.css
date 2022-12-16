@@ -1,0 +1,80 @@
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+header{
+    width: 100%;
+   line-height: 15vh;
+    background-color: rgb(54, 119, 70);
+
+}
+h1{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    text-align: center;
+    color: white;
+    
+}
+section{
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(160, 158, 87);
+}
+.gamearea{
+    width: 50%;
+    height: 400px;
+    padding: 20px 0;
+    background-color:rgb(54, 119, 70) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 6px -6px black;
+
+}
+h3{
+    text-align: center;
+    font-size: 1.5rem;
+    
+
+}
+input{
+    width: 40%;
+    text-align: center;
+    border-radius: 30px;
+    color: black;
+    font-size: 1.1rem;
+    margin: 2rem 0;
+    background-color: whitesmoke;
+    outline: none;
+
+}
+button{
+    font-size: 1 rem;
+    cursor: pointer;
+    outline: none;
+    border:#2f3542;
+    text-decoration: none;
+    margin-top: 10px;
+    color: rgb(34, 55, 151);
+    
+}
+button.btn{
+    font-weight: 600;
+    padding: 1rem 2rem;
+    background: white;
+    text-transform: uppercase;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+button.btn:hover, button.btn:focus, button.btn:active{
+    letter-spacing: 0.125rem;
+    word-spacing: 0.2rem;
+
+}
+.hidden{
+    display: none;
+
+}
